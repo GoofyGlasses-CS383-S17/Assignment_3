@@ -1,3 +1,7 @@
+// CS 383 - Assignment 3 - Spring 2017
+// Adrian Beehner
+// Per instructors permission, code from http://www2.cs.uidaho.edu/~bruceb/cs121/Code/
+
 /*  link.h
  */
 
