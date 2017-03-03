@@ -1,6 +1,6 @@
 // CS 383 - Assignment 3 - Spring 2017
 // Adrian Beehner
-// Per instructors permission, code from http://www2.cs.uidaho.edu/~bruceb/cs121/Code/
+// Per instructors permission, code from http://www2.cs.uidaho.edu/~bruceb/cs121/Code/ (edited)
 
 /*  link.h
  */
@@ -65,8 +65,6 @@ public:
 
     // Output the values in the nodes, one integer per line. 
 
-   void ListNodes();
-
     // Return true if there in a node in the list with the value x.
 
    //bool IsInList(int x);
@@ -75,4 +73,10 @@ public:
     // Return a count of the number of nodes in the list.
  
    int Size();
+
+   int FirstNode();
+
+   void PrintNodes();
+
+   // Print out Nodes
 };
