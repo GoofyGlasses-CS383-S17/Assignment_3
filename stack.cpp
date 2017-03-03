@@ -13,7 +13,7 @@ Stack::Stack()
 
 Stack::~Stack()
 {
-  //while(!IsEmpty())
+  while(!IsEmpty())
   {
       double n = TopPtr.FirstNode();
       TopPtr.RemoveNode();
