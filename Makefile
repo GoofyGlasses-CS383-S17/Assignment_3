@@ -29,7 +29,7 @@ stack.o:        stack.h \
 
 link.o: link.h
 
-PROGRAMS = StackTest
+PROGRAMS = testStack
 
 all::  $(PROGRAMS)
 
