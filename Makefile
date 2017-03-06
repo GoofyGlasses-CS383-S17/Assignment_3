@@ -2,6 +2,9 @@
 #     a makefile for the stack example.
 #  Megan Phelan 3/4/2017
 
+#	Test edit
+#	By: Seth
+
 #            SHELL =    /bin/sh
 
 #              TOP = .
