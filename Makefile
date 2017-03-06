@@ -42,7 +42,7 @@ testStack: $(OBJS)
 #$(CXX) -o $@ $(OBJS) $(LDOPTIONS) $(LOCAL_LIBRARIES) $(LDLIBS)  $(EXTRA_LOAD_FLAGS)
 
 clean::
-	$(RM) StackTest 
+	$(RM) testStack 
 
 latex::
 	latex stack.tex    
