@@ -8,6 +8,8 @@
 // This is a class for a sorted linked list of integers.
 
 //#include <bool.h>   not in CC
+#ifndef LINK_H
+#define LINK_H
 #include <iostream>
 
 using namespace std;
@@ -80,3 +82,5 @@ public:
 
    // Print out Nodes
 };
+
+#endif
