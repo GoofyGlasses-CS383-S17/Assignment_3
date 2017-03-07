@@ -5,8 +5,7 @@
 #include <assert.h>
 #include "link.h"
 
-class Stack
-{
+class Stack{
  public:
   Stack();
   ~Stack();
