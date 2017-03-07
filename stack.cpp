@@ -16,7 +16,7 @@ Stack::~Stack()
   while(!IsEmpty())
   {
       double n = TopPtr.FirstNode();
-      TopPtr.RemoveNode();
+      TopPtr.DeleteNode(n);
       }
 }
 
@@ -27,7 +27,11 @@ void Stack::Push(double n)
 
 double Stack::Pop()
 {
-  TopPtr.RemoveNode();
+  asser(!IsEmpty());
+  
+  double n =TopPtr.FirstNode();
+  TopPtr.DeleteNode(n);
+  return n;
 }
 
 int Stack::IsEmpty()
@@ -45,5 +49,5 @@ int Stack::IsEmpty()
 
 void Stack::Print()
 {
-  TopPtr.PrintList();
+  TopPtr.PrintNodes();
 }
