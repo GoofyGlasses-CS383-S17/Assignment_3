@@ -27,7 +27,7 @@ void Stack::Push(double n)
 
 double Stack::Pop()
 {
-  asser(!IsEmpty());
+  assert(!IsEmpty());
   
   double n =TopPtr.FirstNode();
   TopPtr.DeleteNode(n);
