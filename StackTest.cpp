@@ -1,22 +1,22 @@
 #include <iostream>
-#include "Stack.h"
-#include "Link.h"
+#include "stack.h"
+#include "link.h"
 
 using namespace std;
 
 int main()
 {
   Stack StackObject;
-  
+
   cout << "Pushing integers onto StackObject" <<endl;
-  
+
   for(int i = 0; i < 5; i++)
     {
       StackObject.Push(i);
       cout << i << ' ';
     }
   cout << endl;
-  
+
   cout << "Contents of StackObject" << endl;
    StackObject.Print();          // output the stack contents
 
@@ -34,6 +34,6 @@ int main()
        cout << "The stack is empty" << endl;
    else
        cout << "The stack is not empty" << endl;
- 
+
   return 0;
 }
